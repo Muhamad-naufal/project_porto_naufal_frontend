@@ -4,37 +4,37 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "./src/assets/Motor.png",
+    imgSrc: "Motor.png",
     title: "Website Bengkel Motor",
     tags: ["Pemesanan"],
     projectLink: "#",
   },
   {
-    imgSrc: "./src/assets/Clinical.jpg",
+    imgSrc: "Clinical.jpg",
     title: "Clinical: Website Diagnosis Penyakit",
     tags: ["SC"],
     projectLink: "#",
   },
   {
-    imgSrc: "./src/assets/Travel.png",
+    imgSrc: "Travel.png",
     title: "Travel Yuk: Website Review Tempat Wisata",
     tags: ["Traveling"],
     projectLink: "",
   },
   {
-    imgSrc: "./src/assets/DMGNews.png",
+    imgSrc: "DMGNews.png",
     title: "DMG News: Website Berita",
     tags: ["Portal-Berita"],
     projectLink: "#",
   },
   {
-    imgSrc: "./src/assets/GSI.jpg",
+    imgSrc: "GSI.jpg",
     title: "GSI: Website Perusahaan",
     tags: ["Perusahaan"],
     projectLink: "#",
   },
   {
-    imgSrc: "./src/assets/Makan.png",
+    imgSrc: "Makan.png",
     title: "Mindo Enak:Website Pemesanan Makanan",
     tags: ["Pemesanan"],
     projectLink: "#",
