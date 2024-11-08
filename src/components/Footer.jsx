@@ -27,23 +27,19 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/Muhamad-naufal",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
-  },
-  {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://www.linkedin.com/in/muhamad-naufal-burhanuddin-balit-758510231/",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/muhamadnaufal_594/",
   },
   {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    label: "Facebook",
+    href: "https://www.facebook.com/naufaldhilah/",
   },
 ];
 
