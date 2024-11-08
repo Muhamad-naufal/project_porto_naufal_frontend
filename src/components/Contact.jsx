@@ -82,7 +82,7 @@ const Contact = () => {
           </div>
         </div>
         <form
-          action="https://getform.io/f/bzyywdwa"
+          action="https://formspree.io/f/mbljoewg"
           className="xl:pl-10 2xl:pl-20"
           method="POST"
         >
