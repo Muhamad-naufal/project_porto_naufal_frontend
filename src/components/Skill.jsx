@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "./src/assets/css3.svg",
+    imgSrc: "css3.svg",
     label: "CSS",
     desc: "User Interface",
   },
