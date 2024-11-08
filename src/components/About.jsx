@@ -41,7 +41,7 @@ const About = () => {
               </div>
             ))}
             <img
-              src="./src/assets/favicon.png"
+              src="favicon.png"
               alt="Logo"
               width={30}
               height={30}
