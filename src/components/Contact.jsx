@@ -82,7 +82,7 @@ const Contact = () => {
           </div>
         </div>
         <form
-          onSubmit={handleSubmit}
+          action="https://getform.io/f/bzyywdwa"
           className="xl:pl-10 2xl:pl-20"
           method="POST"
         >
@@ -138,69 +138,5 @@ const Contact = () => {
       </div>
     </section>
   );
-};
-
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  const formData = {
-    name: e.target.name.value,
-    email_user: e.target.email_user.value,
-    message: e.target.message.value,
-  };
-
-  try {
-    const response = await fetch(
-      "https://porto-naufal-backend-jextvw3hg.vercel.app/send-email",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      }
-    );
-
-    if (response.ok) {
-      Swal.fire({
-        title: "Success!",
-        text: "Your message has been sent successfully.",
-        icon: "success",
-        confirmButtonText: "Cool",
-        background: "#fefefe", // light background
-        color: "#4CAF50", // Green for success
-        showClass: {
-          popup: "animate__animated animate__fadeInDown", // Add animation
-        },
-        hideClass: {
-          popup: "animate__animated animate__fadeOutUp", // Add exit animation
-        },
-      });
-    } else {
-      Swal.fire({
-        title: "Failed!",
-        text: "Something went wrong while sending your message.",
-        icon: "error",
-        confirmButtonText: "Try Again",
-        background: "#fff1f1", // light red background
-        color: "#FF3B30", // Red for error
-        showClass: {
-          popup: "animate__animated animate__shakeX", // Add shaking effect
-        },
-        hideClass: {
-          popup: "animate__animated animate__fadeOutUp", // Add exit animation
-        },
-      });
-    }
-  } catch (error) {
-    console.error("Error:", error);
-    Swal.fire({
-      title: "Error",
-      text: "There was an error sending your message.",
-      icon: "error",
-      confirmButtonText: "OK",
-      background: "#fff1f1",
-      color: "#FF3B30",
-    });
-  }
 };
 export default Contact;
