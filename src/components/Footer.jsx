@@ -98,12 +98,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="">
-            <img
-              src="./src/assets/favicon.png"
-              alt="Logo"
-              width={40}
-              height={40}
-            />
+            <img src="favicon.png" alt="Logo" width={40} height={40} />
           </a>
           <p className="text-zinc-500 text-sm">
             &copy; 2024 by{" "}
